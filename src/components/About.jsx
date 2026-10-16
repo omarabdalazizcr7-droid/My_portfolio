@@ -66,7 +66,7 @@ export default function About() {
               </div>
               <div>
                 <h3 style={{ fontSize: '1.25rem', fontWeight: '700', color: '#fff' }}>Education & Academic Rigor</h3>
-                <p style={{ color: '#94a3b8', fontSize: '0.85rem' }}>Albukhary International University (2023 - 2026)</p>
+                <p style={{ color: '#94a3b8', fontSize: '0.85rem' }}>Albukhary International University (Mar 2023 - Mar 2026)</p>
               </div>
             </div>
 

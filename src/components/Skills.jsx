@@ -5,37 +5,37 @@ import { UserCheck, Shield, FileSpreadsheet, Video, MessageSquare, Calculator, L
 export default function Skills() {
   const skillCategories = [
     {
-      category: 'Core HR & Recruitment Operations',
+      category: 'Core HR & Talent Operations',
       icon: <UserCheck size={22} style={{ color: '#f59e0b' }} />,
       items: [
-        { name: 'Candidate Screening & Interviewing', level: 'Advanced' },
+        { name: 'Recruitment & Candidate Screening', level: 'Academic + Applied' },
         { name: 'HR Administration & Documentation', level: 'Advanced' },
         { name: 'Data Entry & Records Management', level: 'Proficient' },
-        { name: 'Performance Management Frameworks', level: 'Academic + Applied' },
+        { name: 'Performance Management & Appraisal', level: 'Academic + Applied' },
         { name: 'Occupational Safety & Health (OSH)', level: 'Academic' },
-        { name: 'Compensation & Benefits Fundamentals', level: 'Academic' },
+        { name: 'Compensation Management', level: 'Academic' },
       ],
     },
     {
-      category: 'Project & Stakeholder Management',
+      category: 'Coordination & Stakeholder Engagement',
       icon: <Layers size={22} style={{ color: '#3b82f6' }} />,
       items: [
-        { name: 'Event & Leadership Program Coordination', level: 'Expert' },
+        { name: 'Event & Project Coordination', level: 'Expert' },
         { name: 'Stakeholder & Community Engagement', level: 'Expert' },
-        { name: 'Cross-Functional Team Communication', level: 'Advanced' },
-        { name: 'Impact Story Writing & Branding', level: 'Advanced' },
-        { name: 'Public Speaking & Workshop Facilitation', level: 'Award-Winning' },
+        { name: 'Reporting & Cross-Functional Communication', level: 'Advanced' },
+        { name: 'Participant Screening & Qualitative Interviews', level: 'Applied' },
+        { name: 'Workshop Facilitation & Public Speaking', level: 'Award-Winning' },
       ],
     },
     {
-      category: 'Technical Tools & Software',
+      category: 'Technical & Digital Tools',
       icon: <Cpu size={22} style={{ color: '#10b981' }} />,
       items: [
-        { name: 'Microsoft Office (Excel, Word, PPT)', level: 'Advanced' },
-        { name: 'Google Workspace Suite', level: 'Advanced' },
-        { name: 'Video Editing & Content Creation', level: 'Proficient' },
-        { name: 'Financial Record Keeping & Budget Control', level: 'Proficient' },
-        { name: 'Website Content Drafting & CMS Support', level: 'Intermediate' },
+        { name: 'Microsoft Office (Word, Excel, PPT)', level: 'Advanced' },
+        { name: 'Google Workspace', level: 'Advanced' },
+        { name: 'Video Editor (Storytelling & Post-Production)', level: 'Proficient' },
+        { name: 'Budget Administration & Expense Tracking', level: 'Proficient' },
+        { name: 'Digital Content & Website Copywriting', level: 'Applied' },
       ],
     },
   ];

@@ -5,10 +5,10 @@ import profileImg from '../../o6.jpeg';
 
 export default function Hero({ onOpenResume }) {
   const keyMetrics = [
-    { value: '70+', label: 'Students Facilitated', sub: 'Tun Razak Foundation' },
+    { value: '70', label: 'Program Participants', sub: 'Tun Razak Foundation' },
     { value: '200+', label: 'Relief Families Supported', sub: 'Red Crescent Volunteer' },
+    { value: '20+', label: 'Stakeholder Interviews', sub: 'Intake & Feedback Screening' },
     { value: '2x', label: 'Competition Awards Won', sub: 'Sustainability & Social Business' },
-    { value: 'HRM', label: 'BBA (Hons) Graduate', sub: 'Albukhary International Univ.' },
   ];
 
   return (
@@ -34,7 +34,7 @@ export default function Hero({ onOpenResume }) {
             <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
               <span className="badge-gold">
                 <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
-                Open for HR & Talent Acquisition Roles
+                HR Assistant • HR Operations • Recruitment Support
               </span>
               <span className="badge-blue">
                 <MapPin size={12} /> Kuala Lumpur, Malaysia
@@ -50,7 +50,7 @@ export default function Hero({ onOpenResume }) {
                 marginBottom: '16px',
               }}
             >
-              Driving Organizational Growth Through <span className="gradient-text">People-First HR Leadership</span>
+              Driving Organizational Growth Through <span className="gradient-text">People-First HR Operations</span>
             </h1>
 
             <p
@@ -62,14 +62,14 @@ export default function Hero({ onOpenResume }) {
                 maxWidth: '640px',
               }}
             >
-              Hi, I’m <strong>Omer Abdalaziz Mohamed</strong>. A Human Resource Management graduate (BBA HRM-Hons) with hands-on experience in program facilitation, candidate & stakeholder interviews, stakeholder communication, and organizational budget administration across corporate, campus, and non-profit initiatives.
+              Hi, I’m <strong>Omer Abdalaziz Mohamed</strong>. A Human Resource Management graduate (HRM, Hons) with hands-on experience supporting program coordination, participant screening and interviews, documentation, and stakeholder communication across nonprofit and campus organizations. Comfortable managing recruitment-style interviews, maintaining accurate records, and preparing reports under deadline pressure.
             </p>
 
             {/* Quick Badges */}
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '28px' }}>
               <span className="badge-emerald"><CheckCircle2 size={13} /> Bilingual (Arabic / English / Tigre)</span>
-              <span className="badge-blue"><CheckCircle2 size={13} /> Candidate Screening & Interviewing</span>
-              <span className="badge-gold"><CheckCircle2 size={13} /> Event & Program Facilitation</span>
+              <span className="badge-blue"><CheckCircle2 size={13} /> Recruitment & Candidate Screening</span>
+              <span className="badge-gold"><CheckCircle2 size={13} /> HR Administration & Documentation</span>
             </div>
 
             {/* CTA Group */}
